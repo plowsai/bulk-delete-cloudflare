@@ -2,8 +2,10 @@ import requests
 import os 
 
 # Replace these with your actual values
-api_token = os.getenv('API_TOKEN')
-zone_id = os.getenv('ZONE_ID')
+# api_token = os.getenv('API_TOKEN')
+# zone_id = os.getenv('ZONE_ID')
+api_token = "#"
+zone_id = "#"
 
 # Cloudflare API endpoint
 url = f"https://api.cloudflare.com/client/v4/zones/{zone_id}/dns_records"
