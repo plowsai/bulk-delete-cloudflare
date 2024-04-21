@@ -1,4 +1,5 @@
 import requests
+import os 
 
 # Replace these with your actual values
 api_token = os.getenv('API_TOKEN')
